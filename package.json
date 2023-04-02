@@ -1,5 +1,5 @@
 {
-  "name": "scaffold-cli-web",
+  "name": "scafgen-cli",
   "version": "1.0.0",
   "type": "module",
   "author": "Jose Munoz",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dolosolow/scaffold-cli"
+    "url": "https://github.com/Dolosolow/scafgen-cli"
   },
   "publishConfig": {
     "access": "public",
