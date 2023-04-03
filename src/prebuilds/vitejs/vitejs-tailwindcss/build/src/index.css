@@ -12,9 +12,3 @@
     overscroll-behavior-y: none;
   }
 }
-
-html,
-body,
-#__next {
-  height: 100%;
-}
