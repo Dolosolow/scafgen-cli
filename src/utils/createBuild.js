@@ -15,7 +15,7 @@ export function createBuild(build, path, build_path) {
       return;
     case "nextjs_ts":
       if (build.css === "tailwindcss") {
-        createTailwindcssNext(build.name, build_path);
+        createTailwindcssNext(build.name, path, build_path);
       }
       return;
     default:
