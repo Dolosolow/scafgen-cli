@@ -9,7 +9,7 @@ export async function StartScript({ build }) {
   const globalDir = process.cwd();
   const [, workingDir] = process.argv;
 
-  const installationPath = path.join(`${workingDir}`, "/../../", "scaffold-cli-web", "src");
+  const installationPath = path.join(`${workingDir}`, "/../../", "scafgen-cli", "src");
   const buildPath = `${globalDir}/${build.name}`;
 
   createBuild(build, installationPath, buildPath);
