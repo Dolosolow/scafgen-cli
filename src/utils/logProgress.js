@@ -13,7 +13,9 @@ export function logProgress(type, message, newLine = false) {
     // display warning log
     case "warn":
       console.log(
-        `${newLine ? "\n" : ""}${chalk.bgYellow("warning")}: ${chalk.whiteBright(`${message}`)}`
+        `${newLine ? "\n" : ""}${chalk.bgYellow("warning")}: ${chalk.whiteBright.bold(
+          `${message}`
+        )}`
       );
       return;
     // display success log
