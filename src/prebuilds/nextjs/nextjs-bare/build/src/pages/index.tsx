@@ -19,7 +19,7 @@ export default function Home() {
           alignItems: "center",
           backgroundColor: "black",
         }}>
-        <Image src="/3a.png" alt="Next.js Logo" width={180} height={180} priority />
+        <Image src="/bonfire.png" alt="Next.js Logo" width={180} height={180} priority />
       </main>
     </>
   );

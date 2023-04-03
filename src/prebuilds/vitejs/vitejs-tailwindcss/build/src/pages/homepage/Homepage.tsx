@@ -1,4 +1,4 @@
-import Logo from "public/3a.png";
+import Logo from "public/bonfire.png";
 
 export function Homepage() {
   return (

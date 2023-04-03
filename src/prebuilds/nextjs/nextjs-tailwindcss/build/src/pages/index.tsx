@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="w-screen h-screen flex justify-center items-center bg-black">
-        <Image src="/3a.png" alt="Next.js Logo" width={180} height={180} priority />
+        <Image src="/bonfire.png" alt="Next.js Logo" width={180} height={180} priority />
       </main>
     </>
   );
