@@ -1,6 +1,6 @@
-import { Routes, Route, Outlet } from "react-router-dom";
-import { Homepage } from "pages/homepage";
 import { HomepageLayout } from "layouts/index";
+import { Homepage } from "pages/homepage";
+import { Route, Routes } from "react-router-dom";
 
 export default function App() {
   return (
