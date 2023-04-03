@@ -1,6 +1,6 @@
 {
   "name": "scafgen-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "author": "Jose Munoz",
   "description": "Quickly create an opinionated Boilerplate Scaffold",

@@ -1,5 +1,5 @@
 import { createBareVite } from "../lib/createBareVite.js";
-import { createBareNext } from "../lib/createBareNext";
+import { createBareNext } from "../lib/createBareNext.js";
 import { createTailwindcssVite } from "../lib/createTailwindcssVite.js";
 import { createTailwindcssNext } from "../lib/createTailwindcssNext.js";
 import { logProgress } from "./logProgress.js";
