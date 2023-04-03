@@ -12,7 +12,7 @@ export function createTailwindcssNext(build_name, path, build_path) {
     "Import alias should be left blank. It generates the alias in an unexpected way."
   );
   logProgress("info", "gen-scaffold will create alias for you.\n", true);
-  runCommand(`npx create-next-app@latest --typescript`);
+  runCommand(`yarn create next-app --typescript`);
 
   logProgress("info", "adding tailwindcss\n", true);
   runCommand(`cd ${build_name} && yarn add -D -s tailwindcss postcss autoprefixer`);
