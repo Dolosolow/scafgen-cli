@@ -8,12 +8,10 @@ export function createTailwindcssNext(build_name, path, build_path) {
   logProgress("warn", "Project name should be the same as the value you entered above.");
   logProgress("warn", "Select yes to using 'src/' directory with your project.");
   logProgress("warn", "Import alias just add '@component/*'. Needed to continue.");
-  logProgress("info", "gen-scaffold will create alias for you.\n", true);
-  runCommand(`yarn create next-app --typescript`);
+  logProgress("info", "gen-scaffold will create alias for you.\n\n", true);
+  runCommand(`npx create-next-app@latest --typescript`);
 
-  logProgress("info", "adding tailwindcss\n", true);
-  runCommand(`cd ${build_name} && yarn add -D -s tailwindcss postcss autoprefixer`);
-  runCommand(`cd ${build_name} && npx tailwindcss init -p`);
+  logProgress("info", "Modifying tailwind config\n", true);
   fs.copySync(`${path}/prebuilds/nextjs/nextjs-tailwindcss/build`, build_path, {
     overwrite: true,
   });

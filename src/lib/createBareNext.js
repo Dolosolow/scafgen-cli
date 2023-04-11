@@ -9,7 +9,7 @@ export function createBareNext(path, build_path) {
   logProgress("warn", "Select yes to using 'src/' directory with your project.");
   logProgress("warn", "Import alias just add '@component/*'. Needed to continue.");
   logProgress("info", "gen-scaffold will create alias for you.\n", true);
-  runCommand(`yarn create next-app --typescript`);
+  runCommand(`npx create-next-app@latest --typescript`);
 
   fs.copySync(`${path}/prebuilds/nextjs/nextjs-bare/build`, build_path, {
     overwrite: true,
